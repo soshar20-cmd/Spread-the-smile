@@ -1,13 +1,13 @@
 ​Spread-the-smile
-​Welcome to the official repository for Spread-the-smile. This project is dedicated to [briefly describe the goal of your initiative, e.g., promoting sustainable living, sharing positive impact, etc.].
-​About
-​[Provide a 2-3 sentence overview of what this project does and the impact you hope to achieve.]
-​Features
-​[Feature 1]: [Short description of feature 1]
-​[Feature 2]: [Short description of feature 2]
+​Welcome to the official repository for Spread-the-smile. This project is dedicated to fostering positivity and shared impact through digital initiatives.
+## About
+Spread-the-smile is a project designed to cultivate community engagement and promote meaningful connections. Our goal is to create a digital space that encourages positive interaction and shared growth. 
+​​Features
+​* *Accessible Content:* A simple, user-friendly interface for all visitors.
+ * *Responsive Design:* Optimized for viewing across different devices.
 ​Getting Started
 ​To view this project, you can visit the live site here: [Link to your live site once deployed]
 ​Contact
 ​If you have any questions or would like to collaborate, feel free to reach out at:
-​Email: spreadthesmaile@gmaile.com]
-​LinkedIn: [Spread the Smile]
+​Email: spreadthesmile@gmail.com]
+​LinkedIn:www.linkedin.com/in/spread-the-smile-mission-by-aatmdeep-foundation-70986941a
