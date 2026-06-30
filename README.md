@@ -9,5 +9,5 @@ Spread-the-smile is a project designed to cultivate community engagement and pro
 ​To view this project, you can visit the live site here: [Link to your live site once deployed]
 ​Contact
 ​If you have any questions or would like to collaborate, feel free to reach out at:
-​Email: spreadthesmile@gmail.com]
+​Email: [spreadthesmilee@gmail.com]
 ​LinkedIn:www.linkedin.com/in/spread-the-smile-mission-by-aatmdeep-foundation-70986941a
