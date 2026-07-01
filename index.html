@@ -469,32 +469,8 @@ document.getElementById('city').addEventListener('change', function(){
   document.getElementById('otherCityWrap').style.display = this.value === 'Other' ? 'block' : 'none';
 });
 
-document.getElementById('signupForm').addEventListener('submit', async function(e){
-  e.preventDefault();
-  const name = document.getElementById('name').value.trim();
-  const citySel = document.getElementById('city').value;
-  const otherCity = document.getElementById('otherCity').value.trim();
-  const city = citySel === 'Other' ? (otherCity || 'Unspecified') : citySel;
-  const contact = document.getElementById('contact').value.trim();
-  const msg = document.getElementById('msg').value.trim();
 
-  const entry = { name, city, contact, msg, ts: new Date().toISOString() };
-  const key = 'signup:' + Date.now() + '-' + Math.random().toString(36).slice(2,7);
-
-  try{
-    await window.storage.set(key, JSON.stringify(entry), true);
-    document.getElementById('confirmMsg').style.display = 'block';
-    this.reset();
-    document.getElementById('otherCityWrap').style.display = 'none';
-    refreshCounter();
-  }catch(err){
-    document.getElementById('confirmMsg').textContent = 'Something went wrong saving that — please try again.';
-    document.getElementById('confirmMsg').style.display = 'block';
-  }
-});
-
-refreshCounter();
-</script>
+</script>*/
 
 </body>
 </html>
