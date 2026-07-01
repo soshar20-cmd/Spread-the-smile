@@ -414,15 +414,15 @@
       <p style="margin-top:22px;opacity:.85;font-size:.92rem;">No pod near you yet? Sign up anyway — the first few people in a city become its founding pod.</p>
     </div>
 
-    <form class="signup" id="signupForm" action="https://formspree.io/f/xeebrayb" method="POST" enctype="application/x-www-form-urlencoded">
+   <form action="https://formspree.io/f/xeebrayb" method="POST">
             <h3>Join the list</h3>
       <div class="field">
         <label for="name">Name</label>
-        <input type="text" id="name" required>
+        <input type="text" id="name" name="name" required>
       </div>
       <div class="field">
         <label for="city">City</label>
-        <select id="city">
+        <select id="city" name="city">
           <option value="Delhi">Delhi</option>
           <option value="Amritsar">Amritsar</option>
           <option value="Other">Other / not listed</option>
@@ -430,15 +430,15 @@
       </div>
       <div class="field" id="otherCityWrap">
         <label for="otherCity">Your city</label>
-        <input type="text" id="otherCity">
+        <input type="text" id="otherCity" name="otherCity">
       </div>
       <div class="field">
         <label for="contact">Phone or email</label>
-        <input type="text" id="contact" required>
+        <input type="text" id="contact" name="contact" required>
       </div>
       <div class="field">
         <label for="msg">Anything you want to add (optional)</label>
-        <textarea id="msg" rows="2"></textarea>
+        <textarea id="msg" name="message" rows="2"></textarea>
       </div>
       <button type="submit" class="signup-btn">Send my address in</button>
       <div class="confirm-msg" id="confirmMsg">You're on the list. Someone from your city's pod will reach out personally — this isn't an automated reply.</div>
@@ -454,23 +454,6 @@
   </div>
 </footer>
 
-<script>
-async function refreshCounter(){
-  try{
-    const list = await window.storage.list('signup:', true);
-    const n = list && list.keys ? list.keys.length : 0;
-    document.getElementById('counterText').textContent = n > 0 ? n + ' people have signed up so far' : '';
-  }catch(e){
-    document.getElementById('counterText').textContent = '';
-  }
-}
-
-document.getElementById('city').addEventListener('change', function(){
-  document.getElementById('otherCityWrap').style.display = this.value === 'Other' ? 'block' : 'none';
-});
-
-
-</script>*/
 
 </body>
 </html>
