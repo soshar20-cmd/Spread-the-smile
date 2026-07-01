@@ -6,7 +6,7 @@ Spread-the-smile is a project designed to cultivate community engagement and pro
 ​* *Accessible Content:* A simple, user-friendly interface for all visitors.
  * *Responsive Design:* Optimized for viewing across different devices.
 ​Getting Started
-​To view this project, you can visit the live site here: [https://soshar20-cmd.github.io/Spread-the-smile/#pods]
+​To view this project, you can visit the live site here: (https://soshar20-cmd.github.io/Spread-the-smile/)
 ​Contact
 ​If you have any questions or would like to collaborate, feel free to reach out at:
 ​Email: [spreadthesmilee@gmail.com]
